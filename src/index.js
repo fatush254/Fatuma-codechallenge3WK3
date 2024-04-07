@@ -1,5 +1,5 @@
 // Your code here
-let filmEndpoint "http://localhost:4000/film":
+let filmEndpoint= 'http://localhost:4000/films';
 
 document.addEventListener("DOMContentLoaded", () => {
     getMovies();
@@ -20,7 +20,7 @@ console.log(getMovies);
 
 function renderMovieList(movie) {
     const li = document.createElement("li");
-    li.textContent = ${movie.title};
+    li.textContent = `${movie.title}`;
     li.id = "id" + movie.id;
     const ul = document.querySelector("#films");
     ul.appendChild(li);
