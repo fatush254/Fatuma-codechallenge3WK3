@@ -31,7 +31,7 @@ function renderMovieList(movie) {
 console.log(renderMovieList);
 
 function handleMovieClick(movie) {
-    const poster = document.querySelector("img#poster")
+    const poster = document.querySelector("img#poster"
     poster.src = movie.poster;
     poster.alt = movie.title;
     const info = document.querySelector("#showing");
