@@ -37,7 +37,7 @@ function handleMovieClick(movie) {
     const info = document.querySelector("#showing");
     info.querySelector("#title").textContent = movie.title;
     info.querySelector("#runtime").textContent = movie.runtime+" minutes";
-    info.querySelector("#film-info").textContent = movie.description;
+    info.querySelector("#film-info").textContent = movie.description
     info.querySelector("#showtime").textContent = movie.showtime;
     info.querySelector("#ticket-num").textContent = movie.capacity - movie.tickets_sold + " remaining tickets";
 }
