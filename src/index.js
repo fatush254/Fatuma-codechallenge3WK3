@@ -28,7 +28,7 @@ function renderMovieList(movie) {
     li.classList.add('item');
     li.addEventListener("click", () => {handleMovieClick(movie)})
 }
-console.log(renderMovieList);
+console.log(renderMovieList):
 
 function handleMovieClick(movie) {
     const poster = document.querySelector("img#poster")
