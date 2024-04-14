@@ -1,5 +1,5 @@
 // Define the URL for the GET request
-const myGetRequest = new Request('http://localhost:3000/films');
+const myGetRequest = new Request('http://localhost:4000/films');
 
 // Get references to DOM elements
 const title = document.getElementById('title');
